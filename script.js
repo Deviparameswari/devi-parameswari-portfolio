@@ -24,7 +24,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 
 // Reveal-on-scroll for sections
 const revealTargets = document.querySelectorAll(
-  '.about-text, .about-stats, .timeline-item, .skill-card, .pub-item, .edu-card, .section-contact .contact-links'
+  '.about-text, .about-stats, .timeline-item, .project-card, .skill-card, .pub-item, .achieve-item, .edu-card, .section-contact .contact-links'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
